@@ -13,4 +13,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_category">Category</string>
+    <string name="nav_name">Sheldon</string>
+    <string name="nav_email">ssheldondcosta@gmail.com</string>
+    <string name="shopping_list_drawer">Shopping List</string>
+    <string name="cart_drawer">Cart</string>
+    <string name="history_drawer">History</string>
+    <string name="profile_drawer">Profile</string>
+    <string name="setting_drawer">Setting</string>
 </resources>

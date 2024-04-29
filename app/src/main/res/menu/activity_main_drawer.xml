@@ -18,16 +18,28 @@
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/nav_category"
-            android:icon="@drawable/ic_launcher_foreground"
+            android:icon="@drawable/category_drawable"
             android:title="@string/menu_category" />
-<!--        <item-->
-<!--            android:icon="@drawable/ic_menu_slideshow"-->
-<!--            android:title="@string/menu_slideshow" />-->
-<!--        <item-->
-<!--            android:icon="@drawable/ic_menu_slideshow"-->
-<!--            android:title="@string/menu_slideshow" />-->
-<!--        <item-->
-<!--            android:icon="@drawable/ic_menu_slideshow"-->
-<!--            android:title="@string/menu_slideshow" />-->
+        <item
+            android:id="@+id/nav_shopping_list"
+            android:icon="@drawable/shopping_list_drawable"
+            android:title="@string/shopping_list_drawer" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart_drawable"
+            android:title="@string/cart_drawer" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history_drawable"
+            android:title="@string/history_drawer" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/history_drawable"
+            android:title="@string/profile_drawer" />
+        <item
+            android:id="@+id/nav_settign"
+            android:icon="@drawable/setting_drawable"
+            android:title="@string/setting_drawer" />
+
     </group>
 </menu>
