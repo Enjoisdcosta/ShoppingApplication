@@ -19,5 +19,6 @@
     <string name="cart_drawer">Cart</string>
     <string name="history_drawer">History</string>
     <string name="profile_drawer">Profile</string>
-    <string name="setting_drawer">Setting</string>
+    <string name="setting_drawer">Settings</string>
+    <string name="test">Setting Fragment</string>
 </resources>
