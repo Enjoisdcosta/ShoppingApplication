@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShoppingListFragment">
+    tools:context=".ListFragment"
+    android:background="@drawable/proflile_background">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Shopping List"
-        android:background="@drawable/proflile_background"/>
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textCategory"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter"
+        android:textSize="35sp"
+        android:layout_below="@+id/textCategory"
+        android:background="@color/white"
+        android:id="@+id/textFood"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textSize="35sp"
+        android:layout_below="@+id/textFood"
+        android:id="@+id/textClothes"
+        android:gravity="center"
+        android:background="@color/category_background"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electronics"
+        android:textSize="35sp"
+        android:layout_below="@+id/textClothes"
+        android:id="@+id/textAccessories"
+        android:gravity="center"
+        android:background="@color/category_background"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to List"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        />
 
-</FrameLayout>
+
+</RelativeLayout>

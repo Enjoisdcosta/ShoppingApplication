@@ -1,41 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileFragment"
-    android:background="@drawable/proflile_background">
+    android:background="@drawable/proflile_background"
+    >
 
     <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/header"
+        >
+        </RelativeLayout>
 
-
+    <ImageView
+        android:id="@+id/imageProfilePic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
     <TextView
         android:id="@+id/textName"
-        android:layout_width="414dp"
-        android:layout_height="83dp"
-        android:text="Name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sheldon D'costa"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="261dp" />
+        android:textSize="25sp"
+        android:layout_below="@+id/imageProfilePic"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        />
 
     <TextView
         android:id="@+id/textEmail"
-        android:layout_width="414dp"
-        android:layout_height="146dp"
-        android:text="Email:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ssheldondcosta@gmail.com"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX=""
-        tools:layout_editor_absoluteY="1061dp" />
+        android:layout_below="@id/textName"
+        android:textSize="20sp"
+        android:gravity="center"
+         />
 
     <TextView
         android:id="@+id/textPhone"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:text="Email:"
+        android:layout_height="wrap_content"
+        android:text="4159679721"
+        android:layout_below="@id/textEmail"
+        android:textSize="20sp"
+        android:gravity="center"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX=""
-        tools:layout_editor_absoluteY="1061dp" />
+       />
 
 
-</FrameLayout>
+
+</RelativeLayout>

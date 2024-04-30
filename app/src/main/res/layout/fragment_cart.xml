@@ -1,15 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CartFragment"
-    android:background="@drawable/proflile_background">
+    android:background="@drawable/proflile_background"
+    >
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="This is cart text" />
+        android:layout_height="100dp"
+        android:id="@+id/header"
+        >
+    </RelativeLayout>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textSettingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/textGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item 1 $price"
+        android:textColor="@color/white"
+        android:layout_below="@id/textSettingTitle"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textGeneral"
+        android:layout_margin="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:text="Item 2 $price"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textManageProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item 3 $price"
+        android:layout_below="@id/textNotification"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item 4 $price"
+        android:layout_below="@id/textManageProfile"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        />
+
+
+
+</RelativeLayout>
