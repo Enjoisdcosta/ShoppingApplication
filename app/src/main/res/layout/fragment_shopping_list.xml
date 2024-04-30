@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListFragment"
+    tools:context=".ui.shoppinglist.ShoppingListFragment"
     android:background="@drawable/proflile_background">
 
     <!-- TODO: Update blank fragment layout -->
@@ -25,9 +25,15 @@
         android:background="@color/white"
         android:id="@+id/textFood"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_marginTop="10dp"
         android:inputType="text"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewShoppingList"
+
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

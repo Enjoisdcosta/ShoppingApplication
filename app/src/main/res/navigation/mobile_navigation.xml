@@ -32,45 +32,49 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.shoppingapplication.DetailFragment"
+        android:name="com.example.shoppingapplication.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.shoppingapplication.ListFragment"
+        android:name="com.example.shoppingapplication.ui.list.ListFragment"
         android:label="List Fragment"
         tools:layout="@layout/fragment_list" />
     <fragment
         android:id="@+id/nav_category"
-        android:name="com.example.shoppingapplication.CategoryFragment"
+        android:name="com.example.shoppingapplication.ui.category.CategoryFragment"
         android:label="Category"
         tools:layout="@layout/fragment_category" />
     <fragment
         android:id="@+id/nav_shopping_list"
-        android:name="com.example.shoppingapplication.ShoppingListFragment"
+        android:name="com.example.shoppingapplication.ui.shoppinglist.ShoppingListFragment"
         android:label="Shopping List"
         tools:layout="@layout/fragment_shopping_list" />
     <fragment
         android:id="@+id/nav_cart"
-        android:name="com.example.shoppingapplication.CartFragment"
+        android:name="com.example.shoppingapplication.ui.cart.CartFragment"
         android:label="Cart"
         tools:layout="@layout/fragment_cart" />
     <fragment
         android:id="@+id/nav_history"
-        android:name="com.example.shoppingapplication.HistroryFragment"
+        android:name="com.example.shoppingapplication.ui.history.HistoryFragment"
         android:label="History"
         tools:layout="@layout/fragment_histrory" />
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.example.shoppingapplication.ProfileFragment"
+        android:name="com.example.shoppingapplication.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.example.shoppingapplication.SettingsFragment"
+        android:name="com.example.shoppingapplication.ui.settings.SettingsFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_settings" />
-
+    <fragment
+        android:id="@+id/counterFragment"
+        android:name="com.example.shoppingapplication.ui.counter.CounterFragment"
+        android:label="fragment_counter"
+        tools:layout="@layout/fragment_counter" />
 
 
 </navigation>
