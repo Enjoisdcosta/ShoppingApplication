@@ -8,4 +8,12 @@ interface ApiEndpoints {
     @GET(ApiDetail.DOG_FACT_ENDPOINT)
     suspend fun getDogFacts(): DogFactModel
 
+
+    interface ApiService {
+        @GET("your_endpoint")
+        suspend fun getFoodData():FoodData
+
+    }
+
+
 }
