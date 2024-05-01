@@ -12,10 +12,16 @@ import com.example.shoppingapplication.ui.shoppinglist.ShoppingListViewModel
 
 
 class CategoryFragment : Fragment() {
+    var menu_id:String? = null
+    var name:String? = null
+    var image:String? = null
+    var food:List<CategoryViewModel>?=null
     lateinit var binding: FragmentCategoryBinding
     lateinit var viewModel: CategoryViewModel
+    private val viewModel2= CategoryViewModel()
+    fun changeCategory(){
 
-
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
